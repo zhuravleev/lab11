@@ -202,3 +202,21 @@ ul li{
     width: 100px; 
 }
 
+.slide{
+    height: 100px; 
+    width: 100px; 
+    background-color: #9370DB;
+}
+
+.slide1{
+    height: 100px; 
+    width: 100px; 
+    background-color: #9370DB;
+}
+
+.animate{
+    height: 100px; 
+    width: 100px; 
+    background-color: #9370DB;
+}
+

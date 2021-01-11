@@ -20,4 +20,26 @@ $(document).ready(function(){
         $("#po8").fadeTo("slow", 0.4);
         $("#po9").fadeTo("slow", 0.7);
     });
+    $(".button5").click(function(){
+        $(".slide").slideUp();
+    });
+    $(".button6").click(function(){
+        $(".slide1").slideToggle();
+    });
+    $(".button7").click(function(){
+        var div = $(".animate");
+        div.animate({height: '200px', opacity: '0.4'}, "slow");
+        div.animate({width: '200px', opacity: '0.8'}, "slow");
+        div.animate({height: '50px', opacity: '0.4'}, "slow");
+        div.animate({width: '50px', opacity: '0.8'}, "slow");
+    }); 
+    $(".button8").click(function(){
+        alert("Мои ФИО: " + $("#hide").text());
+    });
+    $(".button9").click(function(){
+        alert("Код таблицы: " + $("#tbl").html());
+    });
+    $(".button10").click(function(){
+        alert("Ссылка на место обучения: " + $("#link").attr("href"));
+    });
 });
