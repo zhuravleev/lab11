@@ -51,4 +51,5 @@ $(document).ready(function(){
     $(".button").click(function(){
         $("p").addClass("white");
     });
+    $("#acc").accordion();
 });
