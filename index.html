@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <title>
+        Personal web-site
+     </title>
+    <link rel = "stylesheet" href = "style.css">
+    <style>
+        ul{
+            list-style-position: inside;
+            margin-left: 0;
+            padding-left: 0;
+            list-style-type: decimal;
+        }
+        *{
+            margin: 0; 
+            padding: 0;
+        }
+        li{
+            text-align: center;
+        }
+        p{
+            line-height: 1.5em; 
+        }
+        a img{
+            border: none; 
+        }
+        table, th, td{
+            border: 1px solid #000000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <a href="/" class="logo">Zhuravlev</a>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-1-3">   
+                    <img class="photo1" src="img/1.jpg" alt=""> 
+                </div>
+                <div class="col-2-3"> 
+                    <p class="font5" id="hide">Журавлев Юрий Викторович</p> 
+                    <p class="font4" id="show">Мне 18 лет, родился в городе Барнаул Алтайского края, последние два года школы обучался в <a class="block" href="https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D1%80%D0%B0%D0%B5%D0%B2%D0%BE%D0%B9_%D0%BF%D0%B5%D0%B4%D0%B0%D0%B3%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%BB%D0%B8%D1%86%D0%B5%D0%B9-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B0%D1%82">Алтайском краевом педагогическом лицее</a> в классе физики и информатики.</p>
+                    <button class="button1">Show/Hide</button>
+                    <p class="font4">Мои увлечения:</p>
+                    <hr>
+                    <ul>
+                        <li>Игра на гитаре</li>
+                        <li>Вокал</li>      
+                        <li>Спорт</li>
+                        <li>Чтение</li>
+                    </ul>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-2">
+                    <p>Мой музыкальный вкус:</p>
+                    <table>
+                        <tr>
+                            <th>Жанр</th>
+                            <th>Россия</th>
+                            <th>Другие страны</th>
+                        </tr>    
+                        <tr>
+                            <th>Реп</th>
+                            <td>Loqiemean</td>
+                            <td>Yung Gravy</td>
+                        </tr>
+                        <tr>
+                            <th>Панк-рок</th>
+                            <td>Пасош</td>
+                            <td>Third Eye Blind</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-1-2">
+                    <form>
+                        <div>
+                            <label for="fullname">Имя:</label>
+                            <input type="text" name="fullname" id="fullname" class="txt" />
+                        </div>
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="text" name="email" id="email" class="txt" />
+                        </div>
+                    </form>
+                    <button type="submit">Отправить</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-4">
+                    <h1 class="center">Горный Алтай</h1>
+                    <a href="https://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0_%D0%90%D0%BB%D1%82%D0%B0%D0%B9"><img src="img/3.jpg" alt="Горный Алтай" class="photo"></a>
+                    <p class="left">Алтай – это край потрясающе красивых заснеженных гор и голубых бездонных озер. Природа здесь многогранна: сопки, горные реки, водопады и ледники.</p> 
+                    <p class="left">Все это будто просится на картину или фотографию. И именно поэтому сюда ежегодно приезжают сотни туристов. На вопрос о том, что обязательно посетить в туре на Алтае, каждый из тех, кто уже успел побывать здесь, может ответить по-разному. Ведь достопримечательностей в данной местности много.</p>
+                </div>
+                <div class="col-1-2" style="background-color: #F5F5F5;">
+                    <p class="center" style="font: 25pt Times New Roman">Моя летняя поездка в Горный Алтай</p>
+                    <p class="left">Мы с друзьями решили поехать в Горный Алтай, чтобы отдохнуть после тяжелого испытания в виде ЕГЭ. Выбрали место и арендовали дом. Веселье началось, когда мы добирались до этого места, в пути мы пели, слушали музыку и просто обсуждали, чем будем заниматься.</p>
+                    <p class="left">В первый день мы никуда не выходили, только отдыхали после долгого пути. В последующие дни мы посетили множество озер, рек, достопримечательностей, а также полазили по горам.</p>
+                </div>  
+                <div class="col-1-4">
+                    <h1 class="center">Места</h1>
+                        <p class="center">Озеро Ая</p>
+                        <p class="center">Гора Белуха</p>
+                        <p class="center">Телецкое озеро</p>
+                </div>      
+            </div>
+            <div class="row">
+                <div class="col-1-2">
+                    <p id="po1">I</p>
+                    <p id="po2">Love</p>
+                    <p id="po3">Apple</p>
+                    <button class="button2">FadeOut</button>
+                </div>
+                <div class="col-1-2">
+                    <p id="po4">I</p>
+                    <p id="po5">Love</p>
+                    <p id="po6">Apple</p>
+                    <button class="button3">FadeToggle</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1-2">
+                    <p id="po7">I</p>
+                    <p id="po8">Love</p>
+                    <p id="po9">Apple</p>
+                    <button class="button4">FadeTo</button>
+                </div>
+                <div class="col-1-2">
+                    <div class=""
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+
+
+
+
+
+
+</html>
