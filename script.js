@@ -42,4 +42,13 @@ $(document).ready(function(){
     $(".button10").click(function(){
         alert("Ссылка на место обучения: " + $("#link").attr("href"));
     });
+    $(".button11").click(function(){
+        $("#Aia").append(" отличное")
+    });
+    $(".button12").click(function(){
+        $("#Bel").prepend("Очень высокая ")
+    });
+    $(".button").click(function(){
+        $("p").addClass("white");
+    });
 });
