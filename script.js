@@ -52,4 +52,5 @@ $(document).ready(function(){
         $("p").addClass("white");
     });
     $("#acc").accordion();
+    $(".perem").draggable();
 });
